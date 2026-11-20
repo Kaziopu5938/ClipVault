@@ -1,0 +1,7 @@
+node_modules/
+dist/
+src-tauri/target/
+ClipVault-Release/
+*.log
+.DS_Store
+Thumbs.db
