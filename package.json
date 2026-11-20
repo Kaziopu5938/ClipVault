@@ -1,7 +1,7 @@
 {
   "name": "clipvault",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "ClipVault — a permanent, local-first clipboard archive for Windows.",
   "scripts": {

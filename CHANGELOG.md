@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.2 - 2026-11-20
+
+- Left-clicking the tray icon now opens the picker as a tray-anchored flyout at the bottom-right of the working area, with a pointer and close-on-outside-click, instead of a centred popup.
+- The Ctrl+Shift+V picker remains centred for keyboard use.
+- Version bumped across frontend, backend, installer metadata and documentation.
+
 ## 1.0.1 - 2026-11-20
 
 Security and correctness release. All 1.0.0 features are retained.

@@ -18,7 +18,7 @@ ClipVault needs Windows 10 or later with the WebView2 runtime (present on Window
 
 1. Start ClipVault. It appears in the system tray; the main window opens as well.
 2. Copy anything. New items appear in the library instantly and in the quick picker.
-3. Press **Ctrl+Shift+V** anywhere — or left-click the ClipVault icon in the system tray — to open the small picker with everything you have copied. Type to filter, use **↑/↓** to move and **Enter** to put an item back on the clipboard.
+3. Press **Ctrl+Shift+V** anywhere, or left-click the ClipVault icon in the system tray to open a flyout anchored above the tray with everything you have copied. The flyout closes when you click away. Type to filter, use **↑/↓** to move and **Enter** to put an item back on the clipboard.
 4. Closing the main window hides it in the tray. Right-click the tray icon for **Open ClipVault**, **Settings** and **Quit ClipVault**.
 
 ## What gets captured

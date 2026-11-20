@@ -1108,9 +1108,25 @@ html.picker-mode #root {
 }
 
 .picker-root {
+  position: relative;
   height: 100%;
   padding: 8px;
   background: transparent;
+}
+/* Small pointer at the bottom-right, so the picker reads as a tray flyout
+   rather than a floating dialog. */
+.picker-root::after {
+  content: "";
+  position: absolute;
+  right: 30px;
+  bottom: 2px;
+  width: 12px;
+  height: 12px;
+  background: var(--surface);
+  border-right: 1px solid var(--line-strong);
+  border-bottom: 1px solid var(--line-strong);
+  transform: rotate(45deg);
+  pointer-events: none;
 }
 .picker {
   height: 100%;

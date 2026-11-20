@@ -572,7 +572,7 @@ export async function mockInvoke<T>(cmd: string, args?: Record<string, unknown>)
       return mockSettings.monitoringEnabled as T;
     case "get_app_info":
       return {
-        version: "1.0.1",
+        version: "1.0.2",
         schemaVersion: 1,
         dataDir: "C:\\Users\\Opu\\AppData\\Local\\ClipVault",
         dbPath: "C:\\Users\\Opu\\AppData\\Local\\ClipVault\\database\\clipvault.db",

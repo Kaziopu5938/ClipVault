@@ -100,6 +100,12 @@ pub fn run() {
                         let _ = window.hide();
                     }
                 }
+                WindowEvent::Focused(false) => {
+                    // A flyout dismisses when you click away from it.
+                    if label == "picker" {
+                        let _ = window.hide();
+                    }
+                }
                 _ => {}
             }
         })

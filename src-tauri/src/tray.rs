@@ -37,9 +37,10 @@ pub fn create(app: &AppHandle) -> tauri::Result<()> {
             } = event
             {
                 // The tray icon is the quick way to reach your clips: show the
-                // compact picker, not the full library window. Right-click still
+                // compact picker as a flyout anchored above the tray, not the
+                // full library window or a centred popup. Right-click still
                 // opens the menu with Open ClipVault, Settings and Quit.
-                crate::shortcut::toggle_picker(tray.app_handle());
+                crate::shortcut::toggle_picker_tray(tray.app_handle());
             }
         });
     if let Some(icon) = icon {

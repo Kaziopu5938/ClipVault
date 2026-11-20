@@ -1,6 +1,6 @@
 [package]
 name = "clipvault"
-version = "1.0.1"
+version = "1.0.2"
 description = "ClipVault - a permanent, local-first clipboard archive for Windows"
 authors = ["ClipVault"]
 edition = "2021"

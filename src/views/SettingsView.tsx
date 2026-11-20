@@ -796,7 +796,7 @@ export function SettingsView() {
                 </div>
               </div>
               <span className="ml-auto rounded-md border px-2 py-1 font-mono text-[10px]" style={{ borderColor: "var(--line)", color: "var(--ink-muted)" }}>
-                v{info?.version ?? "1.0.1"}
+                v{info?.version ?? "1.0.2"}
               </span>
             </div>
 
@@ -807,7 +807,7 @@ export function SettingsView() {
 
             <div className="mt-6 overflow-hidden rounded-lg border" style={{ borderColor: "var(--line)" }}>
               {[
-                { label: "Version", value: info?.version ?? "1.0.1" },
+                { label: "Version", value: info?.version ?? "1.0.2" },
                 { label: "Schema", value: String(info?.schemaVersion ?? 1) },
                 { label: "Platform", value: info?.platform ?? "Windows" },
                 { label: "Data folder", value: info?.dataDir ?? "" },

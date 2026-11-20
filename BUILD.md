@@ -1,6 +1,6 @@
 # Building ClipVault
 
-Reproducible build notes for ClipVault 1.0.1.
+Reproducible build notes for ClipVault 1.0.2.
 
 ## Prerequisites (as used for this release)
 
